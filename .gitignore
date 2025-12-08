@@ -1,0 +1,6 @@
+# DBeaver workspace files
+.dbeaver/
+
+# Eclipse / IDE metadata
+.project
+.settings/
