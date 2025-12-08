@@ -17,11 +17,11 @@ This is a popular public dataset provided by Microsoft ([contoso_100k.sql](/Data
 
 ### 1. Customer Segmentation Analysis
 
+Query: [Customer_segmentation.sql](/Scripts/Customer_segment.sql)
+
 - Categorized customers based on total lifetime value (LTV)
 - Assigned customers to High, Mid, and Low-value segments
 - Calculated key metrics: total revenue
-
-Query: [Customer_segmentation.sql](/Scripts/Customer_segment.sql)
 
 💡 **Insights:**
 
