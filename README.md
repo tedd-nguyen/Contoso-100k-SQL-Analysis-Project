@@ -1,4 +1,4 @@
-# Sales Analysis SQL Project
+# Contoso Sales Analysis SQL Project
 
 ## Introduction
 
@@ -21,15 +21,15 @@ This is a popular public dataset provided by Microsoft ([contoso_100k.sql](/Data
 - Assigned customers to High, Mid, and Low-value segments
 - Calculated key metrics: total revenue
 
-🖥️ Query: [Customer_segmentation.sql](/Scripts/Customer_segment.sql)
+Query: [Customer_segmentation.sql](/Scripts/Customer_segment.sql)
 
-📊 **Key Findings:**
+💡 **Insights:**
 
 - High-value segment (25% of customers) drives 66% of revenue ($135.4M)
 - Mid-value segment (50% of customers) generates 32% of revenue ($66.6M)
 - Low-value segment (25% of customers) accounts for 2% of revenue ($4.3M)
 
-💡 **Business Insights**
+**Business suggestions**
 
 - High-Value (66% revenue): Offer premium membership program to VIP customers, as losing one customer significantly impacts revenue.
 
@@ -37,18 +37,18 @@ This is a popular public dataset provided by Microsoft ([contoso_100k.sql](/Data
 
 ### 2. Customer Retention
 
-🖥️ Query: [Retention_analysis.sql](/Scripts/Retention_analysis.sql)
+Query: [Retention_analysis.sql](/Scripts/Retention_analysis.sql)
 
 - Identified customers at risk of churning
 - Analyzed last purchase patterns
 - Calculated customer-specific metrics
 
-📊 **Key Findings:**
+💡 **Insights:**
 
 - Cohort churn stabilizes at ~90% after 2-3 years, indicating a predictable long-term retention pattern.
 - Retention rates are consistently low (8-10%) across all cohorts, suggesting retention issues are systemic rather than specific to certain years.
 
-💡 **Business Insights:**
+**Business suggestions:**
 
 - Strengthen early engagement strategies to target the first 1-2 years with onboarding incentives, loyalty rewards, and personalized offers to improve long-term retention.
 - Predict & preempt churn risk and use customer-specific warning indicators to proactively intervene with at-risk users before they lapse.
