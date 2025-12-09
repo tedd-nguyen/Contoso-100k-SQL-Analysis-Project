@@ -1,5 +1,5 @@
-CREATE OR REPLACE VIEW cohort_analysis
-AS WITH customer_revenue AS (
+CREATE OR REPLACE VIEW cohort_analysis AS
+WITH customer_revenue AS (
          SELECT s.customerkey,
             s.orderdate,
             sum(s.quantity* s.netprice * s.exchangerate) AS total_net_revenue,

@@ -15,6 +15,17 @@ This is a popular public dataset provided by Microsoft ([contoso_100k.sql](/Data
 
 ## Analysis Approach
 
+### 0. Create a cohort analysis view for repetitive uses
+
+- Joined the _sales_ table with _customer_ table
+- Grouped by customerkey and orderdate then cleaning up basic information
+- Calculated net revenue of each customer
+- Identified their first purchase date and cohort year (first year purchase)
+
+Query: [Create_cohort_analysis_view.sql](/Scripts/Create_cohort_analysis_view.sql)
+
+![Cohort analysis view result](/images/image.png)
+
 ### 1. Customer Segmentation Analysis
 
 - Categorized customers based on total lifetime value (LTV)
@@ -23,11 +34,13 @@ This is a popular public dataset provided by Microsoft ([contoso_100k.sql](/Data
 
 Query: [Customer_segmentation.sql](/Scripts/Customer_segment.sql)
 
+![Customer segmetation result](/images/image-1.png)
+
 💡 **Insights:**
 
 - High-value segment (25% of customers) drives 66% of revenue ($135.4M)
 - Mid-value segment (50% of customers) generates 32% of revenue ($66.6M)
-- Low-value segment (25% of customers) accounts for 2% of revenue ($4.3M)
+- Low-value segment (25% of customers) is only worth 2% of revenue ($4.3M)
 
 **Business suggestions**
 
@@ -37,11 +50,13 @@ Query: [Customer_segmentation.sql](/Scripts/Customer_segment.sql)
 
 ### 2. Customer Retention
 
-Query: [Retention_analysis.sql](/Scripts/Retention_analysis.sql)
-
 - Identified customers at risk of churning
 - Analyzed last purchase patterns
 - Calculated customer-specific metrics
+
+Query: [Retention_analysis.sql](/Scripts/Retention_analysis.sql)
+
+![Retention analysis result](/images/image-2.png)
 
 💡 **Insights:**
 
@@ -60,6 +75,6 @@ Query: [Retention_analysis.sql](/Scripts/Retention_analysis.sql)
 
 ## Technical Process
 
-- Install the contoso_100k.sql file to localhost PostgreSQL
+- Install the contoso_100k.sql file to localhost PostgreSQL by PGadmin
 - Creating project and making analysis all in DBeaver
 - Upload project to Github repository
