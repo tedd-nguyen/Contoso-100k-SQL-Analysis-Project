@@ -34,7 +34,7 @@ Query: [Create_cohort_analysis_view.sql](/Scripts/Create_cohort_analysis_view.sq
 
 Query: [Customer_segmentation.sql](/Scripts/Customer_segment.sql)
 
-![Customer segmetation result](/images/image-1.png)
+![Customer segmentation result](/images/image-1.png)
 
 💡 **Insights:**
 
