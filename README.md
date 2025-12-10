@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Hi, I'm Thinh. I'm graduated from FPT University with the major of Software Engineering. During the process of learning and making web application projects as multiple roles, I ended up falling in love with data analysis. Although getting trained in web development, I decided to pursue a job in data field. So I've spent time for self-learning all these data analyst skills after my graduation. Hopefully, I'm going to have more chances to work with more realistic dataset. The main reason why I choose this role is to work in an insightful job position with cross-functional team.
+Hi, I'm Thinh. I'm graduated from FPT University with the major of Software Engineering. During the process of learning and making web application projects as multiple roles, I ended up falling in love with data analysis. Although getting trained in web development, I decided to pursue a job in data field. So I've spent time for self-learning all these data analyst skills after my graduation. Hopefully, I'm going to have more chances to work with realistic dataset. The main reason why I choose this role is to work in an insightful job position alongside cross-functional team.
 
 ## Overview
 
